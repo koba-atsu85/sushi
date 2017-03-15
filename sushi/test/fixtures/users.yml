@@ -2,20 +2,20 @@
 
 one:
   id: 1
-  name01: MyString
-  name02: MyString
-  mail: MyString
-  password: MyString
+  name01: ユーザ1姓
+  name02: ユーザ1名
+  mail: example1@example.com
+  password: password
   create_date: 2017-03-15 09:11:47
   update_date: 2017-03-15 09:11:47
-  del_flg: 1
+  del_flg: 0
 
 two:
-  id: 1
-  name01: MyString
-  name02: MyString
-  mail: MyString
-  password: MyString
+  id: 2
+  name01: ユーザ2姓
+  name02: ユーザ2名
+  mail: example2@example.com
+  password: password
   create_date: 2017-03-15 09:11:47
   update_date: 2017-03-15 09:11:47
-  del_flg: 1
+  del_flg: 0
