@@ -1,1 +1,0 @@
-{"virtualbox":{"/sushi":{"guestpath":"/sushi","hostpath":"/Users/atsushi.kobayashi/sushi","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/atsushi.kobayashi/sushi/.vagrant/centos7","disabled":false,"__vagrantfile":true}}}
