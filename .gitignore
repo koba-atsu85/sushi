@@ -1,2 +1,5 @@
 .DS_Store
 thumbs.db
+
+# vagrant
+.vagrant/centos7/.vagrant/machines
