@@ -10,17 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170315091147) do
 
-  create_table "user", unsigned: true, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string   "name01",      limit: 256, default: "",                         null: false
-    t.string   "name02",      limit: 128, default: "",                         null: false
-    t.string   "mail",        limit: 100, default: "",                         null: false
-    t.string   "password",    limit: 128, default: "",                         null: false
-    t.datetime "create_date",             default: -> { "CURRENT_TIMESTAMP" }, null: false
-    t.datetime "update_date",             default: -> { "CURRENT_TIMESTAMP" }, null: false
-    t.boolean  "del_flg",                 default: false,                      null: false
-    t.index ["mail"], name: "UNIQUE_INDEX", unique: true, using: :btree
+  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string   "name01"
+    t.string   "name02"
+    t.string   "mail"
+    t.string   "password"
+    t.datetime "create_date"
+    t.datetime "update_date"
+    t.integer  "del_flg"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
 end
